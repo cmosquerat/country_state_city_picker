@@ -124,8 +124,8 @@ class _SelectStateState extends State<SelectState> {
   void _onSelectedState(String value) {
     if (!mounted) return;
     setState(() {
-      _selectedCity = "Ciudad";
-      _cities = ["Ciudad"];
+      _selectedCity = "Ciudades";
+      _cities = ["Ciudades"];
       _selectedState = value;
       this.widget.onStateChanged(value);
       getCity();
