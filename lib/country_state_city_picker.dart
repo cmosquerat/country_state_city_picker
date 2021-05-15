@@ -26,7 +26,7 @@ class SelectState extends StatefulWidget {
 }
 
 class _SelectStateState extends State<SelectState> {
-  List<String> _cities = ["País"];
+  List<String> _cities = ["Ciudad"];
   List<String> _country = ["País"];
   String _selectedCity = "Ciudad";
   String _selectedCountry = "País";
