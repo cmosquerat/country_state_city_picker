@@ -113,8 +113,8 @@ class _SelectStateState extends State<SelectState> {
   void _onSelectedCountry(String value) {
     if (!mounted) return;
     setState(() {
-      _selectedState = "Choose State";
-      _states = ["Choose State"];
+      _selectedState = "Estado";
+      _states = ["Estado"];
       _selectedCountry = value;
       this.widget.onCountryChanged(value);
       getState();
@@ -124,8 +124,8 @@ class _SelectStateState extends State<SelectState> {
   void _onSelectedState(String value) {
     if (!mounted) return;
     setState(() {
-      _selectedCity = "Choose City";
-      _cities = ["Choose City"];
+      _selectedCity = "Ciudad";
+      _cities = ["Ciudad"];
       _selectedState = value;
       this.widget.onStateChanged(value);
       getCity();
